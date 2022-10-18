@@ -87,6 +87,7 @@ ol {
     padding: 20px;
     border-radius: 10px;
     background-color: rgba(250, 235, 215, 0.348);
+    display: flex;
 
 }
 
