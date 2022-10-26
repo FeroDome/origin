@@ -14,9 +14,6 @@ ol {
     list-style: none;
 }
 
-.header{
-    
-}
 .body {
     background-image: url('../img/shellfish-3062011_1920.jpg');
     background-attachment: fixed;
@@ -94,8 +91,8 @@ ol {
 }
 
 .navbar__li {
-    
-    font-size:  2rem;
+
+    font-size: 2rem;
     display: inline-block;
     justify-content: space-around;
 
@@ -227,7 +224,7 @@ form {
     border-radius: 5px;
     text-align: center;
     padding: 5px 0;
-    background-color: rgba(95, 158, 160, 0.367);
+    background-color: rgba(247, 248, 248, 0.589);
     color: black;
     box-shadow: 5px, 5px, 10px, rgb(12, 67, 143);
 }
@@ -235,29 +232,19 @@ form {
 .tarjeta__boton:hover {
     margin: 5px;
     display: block;
-    border: 2px solid black;
+    border: 2px solid rgb(63, 43, 187);
     border-radius: 5px;
     text-align: center;
     padding: 5px 0;
-    background-color: rgba(17, 55, 56, 0.367);
+    background-color: rgba(8, 56, 58, 0.749);
     color: rgb(247, 244, 244);
 }
 
-footer {
-    display: inline-block;
+.footer1 {
+    background: rgb(75, 146, 173);
+    background: linear-gradient(90deg, rgba(75, 146, 173, 1) 0%, rgba(0, 224, 255, 0.3536765047816002) 59%);
+    border-radius: 0 100px 0 0;
 
-    margin: auto;
-    width: auto;
-    background-color: rgba(250, 235, 215, 0.197);
-    padding: 50px;
-    margin-inline: 30px;
-    border-radius: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
-.redes {
-    font-size: 2rem;
 }
 
 .banner {
@@ -275,7 +262,7 @@ footer {
     width: 100%;
     position: absolute;
     transform: translate(-50%, -50%);
-    background: linear-gradient(-45deg, #df9eb8, rgb(153, 109, 194), #2b0413,violet, red);
+    background: linear-gradient(-45deg, #df9eb8, rgb(153, 109, 194), #2b0413, violet, red);
     background-size: 400%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
@@ -296,9 +283,11 @@ footer {
     0% {
         background-position: 0px 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0px 50%;
     }

@@ -13,10 +13,50 @@
 
 <body class="body">
 
-
     <header class="header">
 
-        <img src="./img/pngegg.png" alt="logo FGL-TRAVELS">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/pngegg.png" alt="logo fgl travels" class="w-10"> FGL-TRAVELS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aereos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Alojamientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cruseros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Paquetes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sobre Nosotros
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Contacto</a></li>
+                                <li><a class="dropdown-item" href="#">Quienes Somos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
 
         <h1 class="fgl">FGL-Viajes</h1>
 
@@ -27,25 +67,7 @@
 
         </form>
 
-        <section>
-            <nav class="navbar">
-                <ul>
-                    <li class="navbar__li"><a href="">Paquetes</a>
-                    </li>
-                    <li class="navbar__li"><a href="">Aereos</a>
-                    </li>
-                    <li class=" navbar__li"><a href="">Hoteles</a>
-                    </li>
-                    <li class="navbar__li"><a href="">Cruceros</a>
-                    </li>
-                    <li class=" navbar__li"><a href="">Quienes Somos</a>
-                    </li>
-                    <li class="navbar__li"><a href="">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
 
-        </section>
 
         <section class="banner">
 
@@ -57,9 +79,6 @@
     </header>
 
     <main>
-
-
-
 
         <hr>
 
@@ -115,13 +134,9 @@
             <a href="https://www.sipago.com.ar" class="tarjeta__boton">Comprar</a>
         </article>
 
-        <article class="tarjeta">
-            <h3 class="tarjeta__titulo">Caribe</h3>
-            <img src="./img/thumbnail_caribe.jpg" alt="foto cancun" class="tarjeta__img">
-            <p class="tarjeta__texto">Estadia media pension, traslados all inclusive</p>
-            <h3 class="tarjeta__precio">$500.000</h3>
-            <a href="https://www.sipago.com.ar" class="tarjeta__boton">Comprar</a>
-        </article>
+    </main>
+
+    <main>
 
         <article class="tarjeta">
             <h3 class="tarjeta__titulo">Caribe</h3>
@@ -163,7 +178,13 @@
             <a href="https://www.sipago.com.ar" class="tarjeta__boton">Comprar</a>
         </article>
 
-
+        <article class="tarjeta">
+            <h3 class="tarjeta__titulo">Caribe</h3>
+            <img src="./img/thumbnail_caribe.jpg" alt="foto cancun" class="tarjeta__img">
+            <p class="tarjeta__texto">Estadia media pension, traslados all inclusive</p>
+            <h3 class="tarjeta__precio">$500.000</h3>
+            <a href="https://www.sipago.com.ar" class="tarjeta__boton">Comprar</a>
+        </article>
 
     </main>
 
@@ -244,7 +265,7 @@
 
     </footer>
 
-    
+
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
