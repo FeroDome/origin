@@ -21,40 +21,40 @@ ol {
     background-repeat: no-repeat;
 }
 
-.crucero {
-    background-image: url("./../assets/imagenes/cruceros.jpg");
+.cruceros {
+    background-image: url("../img/crucero.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
 
 .paquetes {
-    background-image: url("./../assets/imagenes/passport.jpg");
+    background-image: url("../img/paquetes.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
 
-.bodyaereo {
-    background-image: url("./../assets/imagenes/airplane.jpg");
+.aereos {
+    background-image: url("../img/aereos.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
 
 .hotel {
-    background-image: url("./../assets/imagenes/hotel.jpg");
+    background-image: url("../img/alojamiento.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bodycontactus {
-    background-image: url("./../assets/imagenes/cell.jpg");
+    background-image: url("../img/fondocontactos.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
 
 .quienessomos {
 
-    background-image: url("./../assets/imagenes/oficina.jpg");
+    background-image: url("../img/oficina.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
