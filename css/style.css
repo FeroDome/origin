@@ -129,25 +129,7 @@ ol {
 
 }
 
-.labelcontact {
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
 
-
-.namecontact {
-
-    display: block;
-    width: 50%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    background-color: rgb(210, 200, 200);
-    border: 1px solid rgb(123, 171, 244);
-    border-radius: 3px;
-}
 /*tarjeta viajes*/
 
 .tarjeta {
@@ -382,7 +364,7 @@ background: linear-gradient(90deg, rgba(75,146,173,1) 0%, rgba(0,224,255,0.13799
 /*formulario hotel y alojamientos*/
 
 #form{
-    
+
     background-color: #000;
     height:500px;
     width:900px;
