@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Cruceros</title>
 </head>
+
 <body class="cruceros">
 
     <header>
@@ -16,7 +18,8 @@
         <nav class="navbar navbar-expand-lg navbar fs-3">
             <div class="container">
 
-                <a class="navbar-brand fs-3 fw-bold" href="../index.html"><img src="../img/pngegg.png" alt="logo fgl travels" width="50" height="50" class="d-inline-block align-text-center">
+                <a class="navbar-brand fs-3 fw-bold" href="../index.html"><img src="../img/pngegg.png"
+                        alt="logo fgl travels" width="50" height="50" class="d-inline-block align-text-center">
                     FGL-TRAVELS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -73,6 +76,90 @@
 
     </header>
 
+    <main>
+        <div class="container">
+
+
+            <form class="form-group">
+
+                <h1 class="text-center text-white fs-1">Elegi tu Proximo destino</h1>
+
+                <div id="form">
+
+                    <h3 class="text-white">Datos de tu Reserva</h3>
+
+                    <div id="input">
+
+                        <input type="text" id="input-group" placeholder="Lugar de Partida">
+                        <input type="text" id="input-group" placeholder="Destino">
+                        <input type="date" id="input-group" placeholder="Fecha de Salida">
+                        <input type="time" id="input-group" placeholder="Hora de Salida">
+                        <select id="input-group" style="background: black;">
+                            <option value="">Elija una Aerolinea</option>
+                            <option value="">Iberia</option>
+                            <option value="">American Airlines</option>
+                            <option value="">SmarthJet</option>
+                            <option value="">Aerolineas Argentinas</option>
+                            <option value="">LuftHansa</option>
+                            <option value="">Emirates</option>
+
+                        </select>
+                        <select id="input-group" style="background: black;">
+                            <option value="">Asientos</option>
+                            <option value="">Clase Economica</option>
+                            <option value="">Clase Ejecutiva</option>
+                            <option value="">Primera Clase</option>
+                        </select>
+                    </div>
+
+
+                    <div id="input2">
+
+                        <input type="number" id="input-group" placeholder="Adultos">
+                        <input type="number" id="input-group" placeholder="Niños (2-11years)">
+                        <input type="number" id="input-group" placeholder="infante (under 2years)">
+                    </div>
+
+
+                    <div id="input3">
+
+                        <span id="input-group" class="text-primary">Seleccione Tarifa</span>
+                        <input type="radio" id="input-group" name="r">
+                        <label class="text-white" for="input-group">Ida</label>
+                        <input type="radio" id="input-group" name="r">
+                        <label class="text-white" for="input-group">Ida y Vuelta</label>
+                    </div>
+
+
+                    <div id="input4">
+
+                        <input type="date" id="input-group" placeholder="Fecha de Regreso">
+                        <input type="time" id="input-group" placeholder="Hora de Regreso">
+                        <input type="text" id="input-group1" placeholder="Comentarios">
+                    </div>
+
+
+                    <div id="input5">
+
+                        <h3 class="text-white">Datos Personales</h3>
+                    </div>
+
+
+                    <div id="input6">
+
+                        <input type="text" id="input-group" placeholder="Nombre Completo">
+                        <input type="number" id="input-group" placeholder="Telefono">
+                        <input type="email" id="input-group1" placeholder="nombre@ejemplo.com">
+                    </div>
+
+                    <button type="submit" class="btn btn-warning text-white">Enviar</button>
+                    <button type="reset" class="btn btn-primary">Limpiar</button>
+                </div>
+
+
+            </form>
+    </main>
+
     <footer class="container-fluid mt-5 footer1">
 
         <div class="container p-3">
@@ -105,7 +192,8 @@
 
                 <div class="col-lg-4">
                     <h3 class="text-center fw-bold">Newletter</h3>
-                    <p>Para estar al día de la actualidad de la empresa, los mejores destinos, las novedades, las últimas noticias y consejos, no dudes en inscribirte en nuestra Newsletter mensual.</p>
+                    <p>Para estar al día de la actualidad de la empresa, los mejores destinos, las novedades, las
+                        últimas noticias y consejos, no dudes en inscribirte en nuestra Newsletter mensual.</p>
                     <form action="" class="d-flex">
                         <input type="email" placeholder="nombre@ejemplo.com" class="form-control">
                         <input type="submit" value="Enviar" class="btn btn-form ms-2 tarjeta__boton">
@@ -122,12 +210,14 @@
 
         </div>
 
-        <p class="text-center m-0 p-2">Fero | Todos los derechos reservados | <a href="mailto:someone@example.com">Envianos un Email <i class="bi bi-envelope"></i></a></p>
+        <p class="text-center m-0 p-2">Fero | Todos los derechos reservados | <a
+                href="mailto:someone@example.com">Envianos un Email <i class="bi bi-envelope"></i></a></p>
 
 
     </footer>
 
-    
-<script src="../js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <title>Paquetes</title>
 
 </head>
+
 <body class="hotel">
 
     <header>
@@ -17,7 +19,8 @@
         <nav class="navbar navbar-expand-lg navbar fs-3">
             <div class="container">
 
-                <a class="navbar-brand fs-3 fw-bold" href="../index.html"><img src="../img/pngegg.png" alt="logo fgl travels" width="50" height="50" class="d-inline-block align-text-center">
+                <a class="navbar-brand fs-3 fw-bold" href="../index.html"><img src="../img/pngegg.png"
+                        alt="logo fgl travels" width="50" height="50" class="d-inline-block align-text-center">
                     FGL-TRAVELS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -28,16 +31,16 @@
                     <ul class="navbar-nav">
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/aereos.html">Aereos</a>
+                            <a class="nav-link" href="./aereos.html">Aereos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/alojamiento.html">Alojamientos</a>
+                            <a class="nav-link" href="./alojamiento.html">Alojamientos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/cruseros.html">Cruseros</a>
+                            <a class="nav-link" href="./cruseros.html">Cruseros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/paquetes.html">Paquetes</a>
+                            <a class="nav-link" href="./paquetes.html">Paquetes</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
@@ -45,8 +48,8 @@
                                 Sobre Nosotros
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
-                                <li><a class="dropdown-item" href="./pages/quienessomos.html">Quienes Somos</a></li>
+                                <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                                <li><a class="dropdown-item" href="./quienessomos.html">Quienes Somos</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -73,6 +76,79 @@
 
 
     </header>
+
+    <main>
+        <div class="container-fluid">
+            <form class="form-group">
+                <div id="form">
+                    <h1 class="text-white text-center">Hotel y Alojamientos <br>Reserva</h1>
+
+                    <div id="first-group">
+
+                        <div id="content">
+                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                            <input type="text" id="input-group" placeholder="Nombres">
+                        </div>
+
+                        <div id="content">
+                            <i class="bi bi-phone" aria-hidden="true"></i>
+                            <input type="number" id="input-group" placeholder="Telefono">
+                        </div>
+
+                        <div id="content">
+                            <i class="bi bi-calendar" aria-hidden="true"></i>
+                            <input type="date" id="input-group" placeholder="Fecha de salida">
+                        </div>
+
+                        <div id="content">
+                            <i class="bi bi-people-fill" aria-hidden="true"></i>
+                            <select id="input-group" style="background-color: black;">
+                                <option value="">Habitacion para..</option>
+                                <option value="">1</option>
+                                <option value="">2-5</option>
+                                <option value="">6-10</option>
+                                <option value="">11-20</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div id="second-group">
+
+                        <div id="content">
+                            <i class="bi bi-person-fill" aria-hidden="true"></i>
+                            <input type="text" id="input-group" placeholder="Apellidos">
+                        </div>
+
+                        <div id="content">
+                            <i class="bi bi-envelope" aria-hidden="true"></i>
+                            <input type="email" id="input-group" placeholder="Email">
+                        </div>
+
+                        <div id="content">
+                            <i class="bi bi-calendar" aria-hidden="true"></i>
+                            <input type="text" id="input-group" placeholder="Fecha de Llegada">
+                        </div>
+
+                        <div id="content">
+                            <i class="bi bi-users" aria-hidden="true"></i>
+                            <select id="input-group" style="background-color: black;">
+                                <option value="">Tipo de Habitacion</option>
+                                <option value="">Cama Simple</option>
+                                <option value="">Cama Doble</option>
+                                <option value="">Cuchetas</option>
+                                <option value="">Habitaciones conjutas</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <button type="submit" value="Submit" id="submit-btn">Reservar</button>
+
+                </div>
+            </form>
+        </div>
+    </main>
 
     <footer class="container-fluid mt-5 footer1">
 
@@ -106,7 +182,8 @@
 
                 <div class="col-lg-4">
                     <h3 class="text-center fw-bold">Newletter</h3>
-                    <p>Para estar al día de la actualidad de la empresa, los mejores destinos, las novedades, las últimas noticias y consejos, no dudes en inscribirte en nuestra Newsletter mensual.</p>
+                    <p>Para estar al día de la actualidad de la empresa, los mejores destinos, las novedades, las
+                        últimas noticias y consejos, no dudes en inscribirte en nuestra Newsletter mensual.</p>
                     <form action="" class="d-flex">
                         <input type="email" placeholder="nombre@ejemplo.com" class="form-control">
                         <input type="submit" value="Enviar" class="btn btn-form ms-2 tarjeta__boton">
@@ -123,13 +200,15 @@
 
         </div>
 
-        <p class="text-center m-0 p-2">Fero | Todos los derechos reservados | <a href="mailto:someone@example.com">Envianos un Email <i class="bi bi-envelope"></i></a></p>
+        <p class="text-center m-0 p-2">Fero | Todos los derechos reservados | <a
+                href="mailto:someone@example.com">Envianos un Email <i class="bi bi-envelope"></i></a></p>
 
 
     </footer>
-    
 
 
-<script src="../js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
